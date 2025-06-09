@@ -1,0 +1,34 @@
+.styled-button {
+    background: linear-gradient(180deg, #b3d9ff, #80bfff); /* 立体感を出すグラデーション */
+    border: none;
+    border-radius: 50px; /* 丸くする */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* 立体感を出す影 */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.styled-button:hover {
+    background: linear-gradient(180deg, #99ccff, #66aaff); /* ホバー時に色を少し濃く */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* ホバー時の影を強調 */
+}
+
+.del-button{
+    background:linear-gradient(100deg, #fe7d7d, #fe3838);
+    border:none;
+    border-radius:20px;
+    color:white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* 立体感を出す影 */
+    cursor: pointer;
+    transition: 0.3s;
+     margin-right: 10px; /* ボタンの右側に余白を作る */
+
+}
+
+li {
+    margin-bottom: 10px; /* 各行の下に10pxの余白を追加 */
+    background: #93ffb9
+}
+
